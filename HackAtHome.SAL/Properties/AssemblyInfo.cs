@@ -6,17 +6,15 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HackAtHome.Client")]
+[assembly: AssemblyTitle("HackAtHome.SAL")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HackAtHome.Client")]
+[assembly: AssemblyProduct("HackAtHome.SAL")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
-
-[assembly: Application(Theme = "@android:style/Theme.Holo")]
 
 // Version information for an assembly consists of the following four values:
 //

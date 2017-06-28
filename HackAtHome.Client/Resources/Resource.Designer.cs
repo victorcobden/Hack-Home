@@ -26,6 +26,12 @@ namespace HackAtHome.Client
 		
 		public static void UpdateIdValues()
 		{
+			global::HackAtHome.CustomAdapters.Resource.String.ApplicationName = global::HackAtHome.Client.Resource.String.ApplicationName;
+			global::HackAtHome.CustomAdapters.Resource.String.Hello = global::HackAtHome.Client.Resource.String.Hello;
+			global::HackAtHome.Entities.Resource.String.ApplicationName = global::HackAtHome.Client.Resource.String.ApplicationName;
+			global::HackAtHome.Entities.Resource.String.Hello = global::HackAtHome.Client.Resource.String.Hello;
+			global::HackAtHome.SAL.Resource.String.ApplicationName = global::HackAtHome.Client.Resource.String.ApplicationName;
+			global::HackAtHome.SAL.Resource.String.Hello = global::HackAtHome.Client.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -57,11 +63,93 @@ namespace HackAtHome.Client
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050004
+			public const int DetailDescription = 2131034116;
+			
+			// aapt resource value: 0x7f050000
+			public const int DetailFullName = 2131034112;
+			
+			// aapt resource value: 0x7f050005
+			public const int DetailImage = 2131034117;
+			
+			// aapt resource value: 0x7f050002
+			public const int DetailStatus = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int DetailTitle = 2131034113;
+			
+			// aapt resource value: 0x7f05000c
+			public const int EmailEditText = 2131034124;
+			
+			// aapt resource value: 0x7f050009
+			public const int ItemTextView = 2131034121;
+			
+			// aapt resource value: 0x7f05000e
+			public const int PasswordEditText = 2131034126;
+			
+			// aapt resource value: 0x7f05000a
+			public const int StatusTextView = 2131034122;
+			
+			// aapt resource value: 0x7f050011
+			public const int UserTextView = 2131034129;
+			
+			// aapt resource value: 0x7f05000f
+			public const int ValidateButton = 2131034127;
+			
+			// aapt resource value: 0x7f050012
+			public const int evidencesListView = 2131034130;
+			
+			// aapt resource value: 0x7f050008
+			public const int linearLayout1 = 2131034120;
+			
+			// aapt resource value: 0x7f050010
+			public const int linearLayout2 = 2131034128;
+			
+			// aapt resource value: 0x7f050007
+			public const int statusTextView = 2131034119;
+			
+			// aapt resource value: 0x7f05000b
+			public const int textView1 = 2131034123;
+			
+			// aapt resource value: 0x7f05000d
+			public const int textView2 = 2131034125;
+			
+			// aapt resource value: 0x7f050003
+			public const int textView4 = 2131034115;
+			
+			// aapt resource value: 0x7f050006
+			public const int titleTextView = 2131034118;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int EvidenceDetail = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int ListEvidences = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int listlabs = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Login = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Main = 2130903044;
 			
 			static Layout()
 			{
@@ -79,8 +167,26 @@ namespace HackAtHome.Client
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
+			// aapt resource value: 0x7f040007
+			public const int DescriptionTextView = 2130968583;
+			
+			// aapt resource value: 0x7f040003
+			public const int EmailTextView = 2130968579;
+			
+			// aapt resource value: 0x7f040006
+			public const int EvicendeTextView = 2130968582;
+			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040004
+			public const int PasswordTextView = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int ValidateButton = 2130968581;
+			
+			// aapt resource value: 0x7f040002
+			public const int app = 2130968578;
 			
 			static String()
 			{

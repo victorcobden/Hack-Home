@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackAtHome.Client", "HackAtHome.Client\HackAtHome.Client.csproj", "{2301714A-F038-4886-B698-008CA046AFB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackAtHome.SAL", "HackAtHome.SAL\HackAtHome.SAL.csproj", "{F7A52F90-BC52-45B2-87AC-5948DACC3F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackAtHome.Entities", "HackAtHome.Entities\HackAtHome.Entities.csproj", "{9BB24D61-6439-43D4-A9C7-014FC6FD1705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackAtHome.CustomAdapters", "HackAtHome.CustomAdapters\HackAtHome.CustomAdapters.csproj", "{CE869EF6-2316-43F7-9177-FDD230A2F2BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +23,18 @@ Global
 		{2301714A-F038-4886-B698-008CA046AFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2301714A-F038-4886-B698-008CA046AFB2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2301714A-F038-4886-B698-008CA046AFB2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F7A52F90-BC52-45B2-87AC-5948DACC3F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A52F90-BC52-45B2-87AC-5948DACC3F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A52F90-BC52-45B2-87AC-5948DACC3F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A52F90-BC52-45B2-87AC-5948DACC3F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB24D61-6439-43D4-A9C7-014FC6FD1705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB24D61-6439-43D4-A9C7-014FC6FD1705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB24D61-6439-43D4-A9C7-014FC6FD1705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB24D61-6439-43D4-A9C7-014FC6FD1705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE869EF6-2316-43F7-9177-FDD230A2F2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE869EF6-2316-43F7-9177-FDD230A2F2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE869EF6-2316-43F7-9177-FDD230A2F2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE869EF6-2316-43F7-9177-FDD230A2F2BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

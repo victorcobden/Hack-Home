@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">HackAtHome.Client</string>
+    <string name="app">Hack@Home</string>
+    <string name="EmailTextView">Correo:</string>
+    <string name="PasswordTextView">Contraseña:</string>
+    <string name="ValidateButton">Validar</string>
+    <string name="EvicendeTextView">Evidencias</string>
+    <string name="DescriptionTextView">Descripción</string>
 </resources>
